@@ -1,102 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data</title>
-    <link rel="stylesheet" href="data.css">
-    <link rel="stylesheet" href="style 1.css" />
-    <link rel="stylesheet" href="style.CSS">
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="style.CSS" />
+    <link rel="website icon" type="jpg" href="WhatsApp Image 2025-03-09 at 12.44.57_5d7674b7.jpg" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="https://cdn.tailwindcss.com">
     </script>
-    <link rel="website icon" type="jpg" href="WhatsApp Image 2025-03-09 at 12.44.57_5d7674b7.jpg" />
+    
+    
+  
   </head>
-  <style>
-    .container {
-  width: 100%;
-  max-width: 600px;
-}
-
-.contact-info {
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  text-align: center;
-  color: #333;
-  margin-bottom: 30px;
-  font-size: 28px;
-}
-
-.info-group {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 25px;
-  padding: 15px;
-  border-radius: 8px;
-  transition: background-color 0.3s;
-}
-
-.info-group:hover {
-  background-color: #f8f9fa;
-}
-
-.icon {
-  font-size: 24px;
-  margin-right: 15px;
-  min-width: 40px;
-  text-align: center;
-}
-
-.details {
-  flex-grow: 1;
-}
-
-h3 {
-  color: #2c3e50;
-  margin-bottom: 8px;
-  font-size: 18px;
-}
-
-p {
-  color: #666;
-  line-height: 1.6;
-  margin-bottom: 4px;
-}
-
-@media (max-width: 480px) {
-  .contact-info {
-    padding: 20px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  .info-group {
-    padding: 10px;
-  }
-
-  .icon {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 16px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-}
-  </style>
+  </head>
   <body>
     <div class="dashboard">
       <!-- Toggle Button -->
@@ -283,68 +201,113 @@ p {
             </div>
           </div>
         </header>
-        
-       <!-- contact -->
-      
-       <div class="container">
-        <div class="contact-info">
-          <h2>Informasi lebih lanjut dapat menghubungi Tim ISE </h2>
+
+        <!-- <div class="container-logo">
+          <h1 class="text-center font-2rem bg-oklch(0.723 0.219 149.579)">Welcome to the Admin Dashboard!</h1>
+        </div>
+
+        <style>
+          .container-logo{
+            text-align: center;
+            justify-content: center;
+            font-family: 'Times New Roman', Times, serif;
+            background-color:oklch(0.871 0.15 154.449) ;
+            width: 100%;
+            height: 50px;
+            border-radius: 100px;
+          }
+
+          .container-logo h1{
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+            height: 100vh;
+          }
+        </style> -->
+
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           
-          <div class="info-group">
-            <div class="icon">📞</div>
-            <div class="details">
-              <h3>Segmen Ormas </h3>
-              <p>Oka Mahendra (0812-9336-3221)</p>
-              <p>Muhammad Faris Afif (0857-7080-5087)</p>
-            </div>
+          <div class="balance-card rounded-xl p-6 text-white mb-8 animate-fade-in">
+              <h2 class="text-xl font-semibold mb-2">Assalamu'alaikum Warahmatullahi Wabarakatuh</h2>
+              <p class="text-3xl font-bold mb-4">Portal Dashboard Pareto Organisasi Kemasyarakatan (Ormas) BSI</p>
+              <div class="flex space-x-4">
+                 
+              </div>
           </div>
-          <div class="info-group">
-            <div class="icon">✉️</div>
-            <div class="details">
-              <h3>Email</h3>
-              <p>oka.mahendra@bankbsi.co.id</p>
-              <p>muhammad.farist@bankbsi.co.id</p>
-            </div>
-          </div>
-          <div class="info-group">
-            <div class="icon">📍</div>
-            <div class="details">
-              <h3>Address</h3>
-              <p>PT. Bank Syariah Indonesia, Tbk</p>
-              <p>Kantor Pusat</p>
-              <p>Gedung The Tower
-                Jl. Gatot Subroto No.27 
-                Jakarta Selatan 12930<p></p>
-                <br>
-                <h3>Islamic Ecosystem Solution Group (ISE)</h3>
-                <p>Islamic Organization & Socio Business Departement</p>
-                <p>Lantai 21</p>
-            </div>
-          </div>
-          <!-- <div class="info-group">
-            <div class="icon"></div>
-            <div class="details">
-            </div>
-          </div> -->
+
+
+        <style>
+          
+.balance-card {
+  background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%);
+  transition: all 0.3s ease;
+}
+
+.balance-card:hover {
+  transform: scale(1.02);
+}
+
+/* Activity list styles */
+.activity-item {
+  transition: all 0.3s ease;
+}
+
+.activity-item:hover {
+  background-color: #f1f5f9;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+        </style>
+       
+  
+        
+        <div class="parallax home">
+
+            <section id="Beranda" class="Beranda">
+            <section id="home">
+              <div class="leftHome">
+                <h2>Islamic Ecosystem Solution Group (ISE)</h2>
+                <p class="desc">
+                  Segmen Organsisasi Masyarakat (Ormas) dan Yayasan Keagamaan merupakan bagian
+                  dari Islamic Organization & Socio Bussines Department yang fungsinya sebagai
+                  segmen pengelola dan kolaborator dengan Pengurus Ormas di level Pusat (DPP/PP)
+                  yang mempunyai pengaruh dan wewenang untuk mengatur rumah tangga ormas ditingkat
+                  pusat dan daerah baik provinsi, kabupaten/kota, kecamatan sampai kelurahan serta
+                  badan usaha/unit kerja dibawah koordinasinya.
+                </p>
+                
+              </div>
+              <img class="rightHome" src="ISE.jpeg" alt="" />
+            </section>
+            </section>
         </div>
-      </div>
-       </div>
       </main>
     </div>
-    
-        </div>
-        </div>
-      </div>
-      </main>
-    </div>
-    <script>
-      const hamburger = document.getElementById("menu");
-      const navigation = document.getElementById("navigation");
-      hamburger.addEventListener("click", function () {
-        navigation.classList.toggle("active");
-        console.log("clicked");
-      });
-    </script>
 
     <script>
       document
